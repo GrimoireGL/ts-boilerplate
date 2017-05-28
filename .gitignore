@@ -123,3 +123,4 @@ yarn.lock
 ref
 register
 lib
+src/index.ts
