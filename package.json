@@ -9,8 +9,8 @@
         "src"
     ],
     "scripts": {
+        "server": "hs",
         "start": "webpack --watch --progress",
-        "bundle": "webpack --progress --watch",
         "prepublish": "npm run build -- --env.prod",
         "build": "webpack --progress",
         "generate-expose": "cauldron generate-exposure --src ./src --dest ./src/index.ts --ts --main ./src/main.ts",
@@ -26,6 +26,7 @@
         "babel-preset-es2015": "^6.18.0",
         "babel-preset-stage-2": "^6.18.0",
         "grimoirejs-cauldron": "latest",
+        "http-server": "^0.10.0",
         "raw-loader": "^0.5.1",
         "regenerator-runtime": "^0.10.1",
         "ts-loader": "^2.0.3",
