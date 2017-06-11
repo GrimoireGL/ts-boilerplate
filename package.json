@@ -17,7 +17,9 @@
         "generate-reference": "cauldron generate-reference --src ./src --dest ./src/index.ts --ts --main ./src/main.ts --dts ./ref"
     },
     "dependencies": {
-        "grimoirejs": "latest"
+        "grimoirejs": "latest",
+        "grimoirejs-fundamental": "latest",
+        "grimoirejs-math": "latest"
     },
     "devDependencies": {
         "babel-cli": "^6.18.0",
